@@ -1,6 +1,6 @@
 {
 	"cmd": ["cd $project_path; compass watch"],
-	"path": "echo $PATH",
+	"path": "$PATH",
 	"selector": "source.sass",
 	"shell": "true",
 	"windows":
