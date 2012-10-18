@@ -1,10 +1,10 @@
 {
-	"cmd": ["cd $project_path; compass watch"],
-	"path": "$PATH",
-	"selector": ["source.scss", "source.sass"],
-	"shell": "true",
-	"windows":
-	{
-		"cmd": ["compasswatch.bat", "$project_path"]
-	}
+  "cmd": ["cd $project_path; compass watch"],
+  /*"path": "$PATH",*/
+  "shell": "true",
+  "selector": ["source.scss", "source.sass"],
+  "windows":
+  {
+    "cmd": ["compasswatch.bat", "$project_path"]
+  }
 }
